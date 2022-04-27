@@ -1,0 +1,173 @@
+body{
+    font-family: sans-serif;
+    
+    margin: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(45,200,116);
+}
+.form-conteiner{
+    background-color: rgb(67, 65, 65);
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+.n1{
+    display: flex;
+    justify-content:space-between;
+    min-height: 40px;
+    background-color: rgb(45, 42, 42);
+    align-items:center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+.logo{
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    line-height: 20px;
+    text-decoration: none;
+
+}
+.logo img{
+    height: 60px;
+    width:60px ;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 50px;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+nav a :hover{
+    color:rgb(250, 0, 0); 
+}
+@media (max-width :600px){
+  .n1{flex-direction: column;
+    text-align: center;
+    }
+}
+.n1 .logo h2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.70em;
+}
+.n1 nav a{
+    color: rgb(255, 255, 255);
+    -o-transition:all 500ms ease  ;
+    transition:all 500ms ease ;
+    -webkit-transition:all 500ms ease ;
+    font-size: 15px;
+    font-weight: bold;
+}    
+.n1 nav a:hover{
+    background:rgb(45,200,116);
+    border-radius: 120px;
+    padding: 20px;
+
+}
+.form-conteiner .login-conteiner{
+    width: 500px;
+    margin: 0 auto;
+}
+.form-conteiner .login-conteiner >h2{
+     text-align: center;
+     font-size: 2.5rem;
+}
+.form-conteiner .login-conteiner >p,
+.form-conteiner .login-conteiner >span{
+      text-align: center;
+      color: #999;
+}
+.form-conteiner .login-conteiner label{
+       display: block;
+       font-weight: bold;
+       padding: 5px 0;
+}
+.form-conteiner .login-conteiner input.input{
+       display: block;
+       width: 100%;
+       box-sizing: border-box;
+       padding: 10px;
+       border: 1px #ccc;
+       border-radius: 5px;
+}
+.form-conteiner .login-conteiner input.input:focus{
+    outline: solid 2px #0099ff;
+}
+.form-conteiner .login-conteiner .opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-conteiner a {
+    color: #0099ff;
+    text-decoration: none;
+}
+.form-conteiner a:hover{
+    text-decoration: underline;
+}
+.form-conteiner .login-conteiner .provaiders{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    border: none;
+    padding: 15px 0px;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn.btn-login{
+    background-color: #0099ff;
+    color: white;
+
+}
+.btn.btn-login:hover{
+    background-color: #333;
+
+}
+.btn.btn-Facebook{
+    background-color: rgb(10,82,216);
+    color: white;
+}
+.btn.btn-Facebook:hover{
+    background-color: rgb(14, 64, 157);
+  
+}
+.btn.btn-Google{
+    background-color: white ;
+    color: rgb(0, 0, 0);
+    border:solid 1px #ccc ;
+}
+.btn.btn-Google:hover{
+    background-color: rgb(174, 174, 174) ;
+  
+}
+.btn.btn-Twiter{
+    background-color: rgb(38, 188, 234);
+    color: white;
+}
+.btn.btn-Twiter:hover{
+    background-color: rgb(21, 123, 154);
+    
+}
