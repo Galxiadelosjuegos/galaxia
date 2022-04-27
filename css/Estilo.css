@@ -73,7 +73,7 @@ nav a :hover{
        0deg,
        rgb(0,0,0,0.5),
        rgb(0,0,0,0.5)
-   ) ,url(/HTML/Pagina/imagenes/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+   ) ,url(/imagenes/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -226,7 +226,7 @@ button{
         0deg,
         rgb(0,0,0,0.5),
         rgb(0,0,0,0.5)
-    ) ,url(/HTML/Pagina/imagenes/igor-karimov-9AmKnNZw3GA-unsplash.jpg);
+    ) ,url(/imagenes/igor-karimov-9AmKnNZw3GA-unsplash.jpg);
     
 }
 .caja:nth-child(2){
@@ -234,7 +234,7 @@ button{
        0deg,
        rgb(0,0,0,0.5),
        rgb(0,0,0,0.5)
-   ) ,url(/HTML/Pagina/imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+   ) ,url(/imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
   
 }
 .caja:nth-child(3){
@@ -242,7 +242,7 @@ button{
        0deg,
        rgb(0,0,0,0.5),
        rgb(0,0,0,0.5)
-   ) ,url(/HTML/Pagina/imagenes/nassim-allia-ot-HSrLNTP0-unsplash.jpg);
+   ) ,url(/imagenes/nassim-allia-ot-HSrLNTP0-unsplash.jpg);
    
 }
 .xd p{
