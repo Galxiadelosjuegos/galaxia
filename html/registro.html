@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Galaxia de los Juegos</title>
+    <link rel="stylesheet" href="/HTML/Pagina/css/Inicio de sesion.css">
+    <link rel="icon" type="image/jpg" href="https://www.crearlogogratisonline.com/images/crearlogogratis_1024x1024_01.png">
+</head>
+<body>
+    <!-- Barra de estado -->
+    <header class="n1">
+		<a href="index.html" class="logo">
+		    <img src="https://www.crearlogogratisonline.com/images/crearlogogratis_1024x1024_01.png" alt="Logo de mi trabajo">
+			<h2>Galaxia de los Juegos</h2>
+           
+		</a>
+		<Nav>
+			<a href="inicio de sesion.html" class="NAV-LINK">Iniciar Sesion</a>
+			<a href="" class="NAV-LINK">Novedades</a> 
+			<a href="index5.html" class="NAV-LINK">Acerca de Mi</a>
+		</Nav>
+     </header>
+
+     <!-- Inicio de Sesion -->
+    <div class="form-conteiner">
+       <div class="login-conteiner">
+           <h2>Bienvenido</h2>
+           <p>Elige el metodo de autenticacion</p>
+
+           <form method="post">
+               <p>
+                   <label for="usuario"> Nombre de usuario</label>
+                   <input class="input" type="text" name="Usuario" id="Usuario" placeholder="Ingrese un Nombre">
+               </p>
+
+               <p>
+                <label for="Gmail">Gmail</label>
+                <input class="input" type="email" name="Gmail" id="Gmail" placeholder="nombre@ejemeplo.com">
+               </p>
+
+               <p>
+                <label for="Contraseña">Contraseña</label>
+                <input class="input" type="password" name="Contraseña" id="Contraseña" placeholder="Debe contener 8 o mas caracteres">
+               </p>
+
+               <p>
+                <label for="Repite la Contraseña">Repite la Contraseña</label>
+                <input class="input" type="password" name="Repite la Contraseña" id="Repite la Contraseña" placeholder="Repite la Contraseña">
+               </p>
+
+            <div class="opciones">
+                Recordarme
+                <div><input type="checkbox" name="Recordar" id="Recordar"></div>
+             </div>
+
+                 <p>
+                  <input type="submit" name="Registrarse" class="btn btn-login" value="Registrarse">
+                 </p>
+             <div class="provaiders">
+                <span>Otros métodos para Registrarse</span>
+                <button class="btn btn-Google">Google</button>
+                <button class="btn btn-Facebook">Facebook</button>
+                <button class="btn btn-Twiter">Twiter</button>
+             </div>
+
+             
+           </form>
+       </div>
+       <div class="welcome-screen-cointeiner"> </div>
+      
+    </div>
+  <?php
+    included("register.php");
+  ?>
+</body>
+</html>
